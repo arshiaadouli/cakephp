@@ -16,8 +16,8 @@
             echo $this->Form->control('category_id', ['options' => $categories, 'empty' => '-- Please select a category --']);
             ?>
         </fieldset>
-        <?= $this->Form->button(__('search by above criteria')) ?>
-        <?= $this->Html->link(__('reset search and list all products'), ['type'=>'reset', 'action'=>'search'], ['class' => 'button float-right']) ?>
+        <?= $this->Form->button(__('search by above criteria'), ['class'=>'btn btn-primary']) ?>
+        <?= $this->Html->link(__('reset search and list all products'), ['type'=>'reset', 'action'=>'search'], ['class' => 'btn btn-primary']) ?>
         <?= $this->Form->end() ?>
 
     </div>
