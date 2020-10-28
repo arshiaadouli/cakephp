@@ -1,0 +1,1026 @@
+2020-10-26 04:54:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Categories could not be found. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Categories',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /categories
+
+
+2020-10-26 04:54:34 Error: [Cake\Http\Exception\MissingControllerException] Controller class Category could not be found. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Category',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /category
+
+
+2020-10-26 05:00:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Category could not be found. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Category',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /category
+
+
+2020-10-26 05:11:21 Error: [Cake\Http\Exception\MissingControllerException] Controller class Categoris could not be found. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Categoris',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /categoris
+
+
+2020-10-26 07:26:32 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] A socket operation was attempted to an unreachable host.
+ in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] A socket operation was attempted to an unreachable host.
+',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1506
+- C:\xampp\htdocs\cakeTest\src\Controller\CategoriesController.php:36
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] A socket operation was attempted to an unreachable host.
+ in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1506
+- C:\xampp\htdocs\cakeTest\src\Controller\CategoriesController.php:36
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /categories/view/6
+Referer URL: http://localhost:8080/cakeTest/products?sort=id&direction=asc
+
+
+2020-10-26 07:29:04 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1506
+- C:\xampp\htdocs\cakeTest\src\Controller\CategoriesController.php:36
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1506
+- C:\xampp\htdocs\cakeTest\src\Controller\CategoriesController.php:36
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /categories/view/6
+Referer URL: http://localhost:8080/cakeTest/products?sort=id&direction=asc
+
+
+2020-10-26 07:29:09 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1506
+- C:\xampp\htdocs\cakeTest\src\Controller\CategoriesController.php:36
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Table.php:1506
+- C:\xampp\htdocs\cakeTest\src\Controller\CategoriesController.php:36
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /categories/view/6
+
+
+2020-10-26 14:41:49 Error: [ParseError] syntax error, unexpected '$products' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\cakeTest\src\Controller\ProductsController.php on line 42
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /products/search?maximum_sale_price=&country_of_origin=&category_id=2
+Referer URL: http://localhost:8080/cakeTest/products/search?maximum_sale_price=&country_of_origin=&category_id=3
+
+
+2020-10-26 14:52:24 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Query.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:1112
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:292
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:1059
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Datasource\Paginator.php:180
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:201
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:788
+- C:\xampp\htdocs\cakeTest\src\Controller\ProductsController.php:40
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /products/search?maximum_sale_price=&country_of_origin=&category_id=2
+Referer URL: http://localhost:8080/cakeTest/products/search?maximum_sale_price=&country_of_origin=&category_id=5
+
+
+2020-10-26 14:52:36 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Query.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:1112
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:292
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\ORM\Query.php:1059
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Datasource\Paginator.php:180
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:201
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:788
+- C:\xampp\htdocs\cakeTest\src\Controller\ProductsController.php:40
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /products/search?maximum_sale_price=&country_of_origin=&category_id=5
+Referer URL: http://localhost:8080/cakeTest/products/search?maximum_sale_price=&country_of_origin=&category_id=2
+
+
+2020-10-26 15:26:41 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /assignment3
+
+
+2020-10-26 15:27:06 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /assignment3
+
+
+2020-10-26 15:27:30 Error: [Cake\Http\Exception\MissingControllerException] Controller class Assignment3 could not be found. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Assignment3',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /assignment3
+
+
+2020-10-26 15:27:32 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 15:28:14 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 15:28:17 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 15:28:20 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 15:28:33 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 15:30:06 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 15:31:32 Error: [Cake\Controller\Exception\MissingActionException] Action ProductsController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 15:34:07 Error: [Cake\Controller\Exception\MissingActionException] Action CategoriesController::display() could not be found, or is not accessible. in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/
+
+
+2020-10-26 17:09:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Image.jpg could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Image.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:141
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /image.jpg
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/?maximum_sale_price=&country_of_origin=&category_id=5
+
+
+2020-10-26 17:10:03 Error: [Cake\Http\Exception\MissingControllerException] Controller class Image.jpg could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Image.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:141
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /image.jpg
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/?maximum_sale_price=&country_of_origin=&category_id=5
+
+
+2020-10-26 17:10:55 Error: [Cake\Http\Exception\MissingControllerException] Controller class Image.jpg could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Image.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:141
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /image.jpg
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/?maximum_sale_price=&country_of_origin=&category_id=5
+
+
+2020-10-26 17:11:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Image.jpg could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Image.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:141
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /image.jpg
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/?maximum_sale_price=&country_of_origin=&category_id=5
+
+
+2020-10-27 09:59:43 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\ProductsController.php:32
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\ProductsController.php:32
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+

@@ -1,0 +1,47 @@
+2020-10-26 04:56:12 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Console\CommandRunner.php:171
+- C:\xampp\htdocs\cakeTest\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\xampp\htdocs\cakeTest\vendor\cakephp\cakephp\src\Console\CommandRunner.php:171
+- C:\xampp\htdocs\cakeTest\bin\cake.php:12
+
+
+
