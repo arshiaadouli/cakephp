@@ -6,7 +6,7 @@
 ?>
 <div class="products index content">
     <?= $this->Html->link(__('New Product'), ['action' => 'add'], ['class' => 'button float-right']) ?>
-    <h3><?= __('products') ?></h3>
+    <h3 id="search_title"><?= __('products') ?></h3>
     <div class="products form content">
         <?= $this->Form->create(null, ['nonvalidate' => true, 'type' => 'get']) ?>
         <fieldset>
@@ -16,8 +16,8 @@
             echo $this->Form->control('category_id', ['options' => $categories, 'empty' => '-- Please select a category --']);
             ?>
         </fieldset>
-        <?= $this->Form->button(__('search by above criteria'), ['class'=>'btn btn-primary']) ?>
-        <?= $this->Html->link(__('reset search and list all products'), ['type'=>'reset', 'action'=>'search'], ['class' => 'btn btn-primary']) ?>
+        <?= $this->Form->button(__('search by above criteria'), ['class'=>'button']) ?>
+        <?= $this->Html->link(__('reset search and list all products'), ['type'=>'reset', 'action'=>'search'], ['class' => 'button']) ?>
         <?= $this->Form->end() ?>
 
     </div>
