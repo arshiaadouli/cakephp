@@ -4,7 +4,11 @@
  * @var \App\Model\Entity\Product[]|\Cake\Collection\CollectionInterface $products
  */
 ?>
-<div class="products index content">
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<div class="container">
     <?= $this->Html->link(__('New Product'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3 id="search_title"><?= __('products') ?></h3>
     <div class="products form content">
@@ -16,11 +20,13 @@
             echo $this->Form->control('category_id', ['options' => $categories, 'empty' => '-- Please select a category --']);
             ?>
         </fieldset>
-        <?= $this->Form->button(__('search by above criteria'), ['class'=>'button']) ?>
-        <?= $this->Html->link(__('reset search and list all products'), ['type'=>'reset', 'action'=>'search'], ['class' => 'button']) ?>
+        <?= $this->Form->button(__('search by above criteria'), ['class'=>'btn btn-primary']) ?>
+        <?= $this->Html->link(__('reset search and list all products'), ['type'=>'reset', 'action'=>'search'], ['class' => 'btn btn-danger']) ?>
         <?= $this->Form->end() ?>
+        <?= $this->Html->css('theme_file.css')?>
 
     </div>
+    <body>
     <div class="table-responsive">
         <table>
             <thead>
@@ -51,6 +57,7 @@
             </tbody>
         </table>
     </div>
+    </body>
     <div class="paginator">
         <ul class="pagination">
             <?= $this->Paginator->first('<< ' . __('first')) ?>

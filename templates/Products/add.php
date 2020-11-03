@@ -4,6 +4,8 @@
  * @var \App\Model\Entity\Product $product
  */
 ?>
+<?= $this->Html->css('theme_file.css')?>
+<div class = "container">
 <div class="row">
     <aside class="column">
         <div class="side-nav">
@@ -27,4 +29,5 @@
             <?= $this->Form->end() ?>
         </div>
     </div>
+</div>
 </div>

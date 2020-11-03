@@ -18,6 +18,7 @@ class ProductsController extends AppController
      */
     public function index()
     {
+        $this->viewBuilder()->setTheme("theme");
         $this->paginate = [
             'contain' => ['Categories'],
         ];

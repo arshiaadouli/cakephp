@@ -4,6 +4,7 @@
  * @var \App\Model\Entity\Category $category
  */
 ?>
+<div class = "container">
 <div class="row">
     <aside class="column">
         <div class="side-nav">
@@ -29,4 +30,5 @@
             <?= $this->Form->end() ?>
         </div>
     </div>
+</div>
 </div>

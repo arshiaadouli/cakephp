@@ -4,8 +4,11 @@
  * @var \App\Model\Entity\Category[]|\Cake\Collection\CollectionInterface $categories
  */
 ?>
+<div class = "container">
 <div class="categories index content">
     <?= $this->Html->link(__('New Category'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <?$this->Html->css(['theme_file','normalize.min', 'milligram.min', 'cake']) ?>
+</div>
     <h3><?= __('Categories') ?></h3>
     <div class="table-responsive">
         <table>
@@ -41,4 +44,5 @@
         </ul>
         <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
     </div>
+</div>
 </div>

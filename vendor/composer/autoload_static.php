@@ -142,6 +142,7 @@ class ComposerStaticInita5092b92705aa4b21276b50449275d29
             'Aura\\Intl\\' => 10,
             'App\\Test\\' => 9,
             'App\\' => 4,
+            'AdminLTE\\' => 9,
         ),
     );
 
@@ -389,6 +390,10 @@ class ComposerStaticInita5092b92705aa4b21276b50449275d29
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'AdminLTE\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/maiconpinto/cakephp-adminlte-theme/src',
         ),
     );
 
