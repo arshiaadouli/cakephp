@@ -35,7 +35,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
 
 
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake']) ?>
+    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake', 'theme_file']) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>

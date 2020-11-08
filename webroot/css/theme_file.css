@@ -3,29 +3,18 @@
 /*    font-family: "Bungee Shade";*/
 /*    !*font-size: 50px;*!*/
 /*}*/
-#all{
-    background-color: wheat;
-    margin-bottom: 50px;
 
-}
-
-html
- {
-     background-color: wheat;
-     /*margin-bottom: 50px;*/
-
- }
 
 /*.button, .button float-right{*/
 /*    font-family: Pacifico;*/
 /*}*/
 table, tr, th{
-    font-family: "Comic Sans MS";
+    font-family: "arial-black";
     padding: 30px;
     font-size: 20px;
 }
-tr:nth-child(even) {background-color: #f8d7da}
-tr:hover {background-color: #cbaaad}
+/*tr:nth-child(even) {background-color: #cbaaba}*/
+tr:hover {background-color: rgba(5,8,7,0.3)}
 #link{
     /*font-family: "Kunstler Script";*/
     font-size: 50px;

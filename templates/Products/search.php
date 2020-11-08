@@ -23,7 +23,7 @@
         <?= $this->Form->button(__('search by above criteria'), ['class'=>'btn btn-primary']) ?>
         <?= $this->Html->link(__('reset search and list all products'), ['type'=>'reset', 'action'=>'search'], ['class' => 'btn btn-danger']) ?>
         <?= $this->Form->end() ?>
-        <?= $this->Html->css('theme_file.css')?>
+        <?= $this->Html->css(['theme_file.css'])?>
 
     </div>
     <body>

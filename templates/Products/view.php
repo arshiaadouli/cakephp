@@ -14,7 +14,7 @@
             <?= $this->Form->postLink(__('Delete Product'), ['action' => 'delete', $product->id], ['confirm' => __('Are you sure you want to delete # {0}?', $product->id), 'class' => 'side-nav-item']) ?>
             <?= $this->Html->link(__('List Products'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
             <?= $this->Html->link(__('New Product'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->css(['theme_file','normalize.min', 'milligram.min', 'cake']) ?>
+            <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">

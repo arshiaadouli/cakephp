@@ -13,10 +13,9 @@ return [
             'show_social' => true
         ],
         'folder' => ROOT,
-        'skin' => 'blue'
+        'skin' => 'yellow'
     ]
 ];
 
-// config/bootstrap.php
 
 

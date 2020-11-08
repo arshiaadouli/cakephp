@@ -3111,3 +3111,1114 @@ Request URL: /admin_l_t_e/js/app.min.js
 Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
 
 
+2020-11-03 01:27:50 Error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.ctp with your own version or re-enable debug mode. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\debug.php on line 25
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\PagesController.php:65
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /pages/debug
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 01:41:24 Error: [Cake\Core\Exception\MissingPluginException] Plugin AdminLTE.AdminLTE could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 143
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php:248
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php:219
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\Plugin.php:87
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1571
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1347
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:415
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:391
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:248
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:142
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:125
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/
+
+
+2020-11-03 01:41:27 Error: [Cake\Core\Exception\MissingPluginException] Plugin AdminLTE.AdminLTE could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 143
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php:248
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php:219
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\Plugin.php:87
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1571
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1347
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:415
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:391
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:248
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:142
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:125
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/
+
+
+2020-11-03 01:41:30 Error: [Cake\Core\Exception\MissingPluginException] Plugin AdminLTE.AdminLTE could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 143
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php:248
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\PluginCollection.php:219
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\Plugin.php:87
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1571
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:1347
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:415
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:391
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php:248
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:142
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:125
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/
+
+
+2020-11-03 01:41:50 Error: [Error] Call to undefined method Cake\View\ViewBuilder::className() in C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\AppController.php on line 65
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:683
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/
+
+
+2020-11-03 01:42:55 Error: [Error] Call to undefined method Cake\View\ViewBuilder::className() in C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\AppController.php on line 65
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:683
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/
+
+
+2020-11-03 01:42:59 Error: [Error] Call to undefined method Cake\View\ViewBuilder::className() in C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\AppController.php on line 65
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:683
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/
+
+
+2020-11-03 01:45:57 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/bootstrap/css/bootstrap.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:57 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/fastclick/fastclick.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:57 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/jQuery/jquery-2.2.3.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/slimScroll/jquery.slimscroll.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/js/app.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/slimScroll/jquery.slimscroll.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/fastclick/fastclick.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:45:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/js/app.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/fixed
+
+
+2020-11-03 01:46:47 Error: [Error] Call to undefined method Cake\View\ViewBuilder::className() in C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\AppController.php on line 66
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:309
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventManager.php:286
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php:92
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:683
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:146
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/
+
+
+2020-11-03 02:00:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Dist could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /dist/img/photo1.png
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/widgets
+
+
+2020-11-03 02:33:42 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/css/skins/skin-wheat.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 04:02:14 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/css/skins/skin-gold.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 04:05:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/css/skins/skin-gold.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 04:05:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/css/skins/skin-gold.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 04:06:38 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/css/skins/skin-gold.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 04:08:13 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/css/skins/skin-gold.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 04:10:17 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:72
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /css/.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/bootstrap/css/bootstrap.min.css
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/jQuery/jquery-2.2.3.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/fastclick/fastclick.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/js/app.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/slimScroll/jquery.slimscroll.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/slimScroll/jquery.slimscroll.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/fastclick/fastclick.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-03 04:21:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/js/app.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-06 13:46:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+
+2020-11-06 13:46:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/jQuery/jquery-2.2.3.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+idebar
+
+
+2020-11-06 13:46:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-06 13:46:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/slimScroll/jquery.slimscroll.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-06 13:46:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/plugins/fastclick/fastclick.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-06 13:46:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Admin_l_t_e could not be found. in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /admin_l_t_e/js/app.min.js
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-06 13:47:22 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\ProductsController.php:33
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\ProductsController.php:33
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8080/cakeTest/fit2104-cakephp/pages/layout/collapsed-sidebar
+
+
+2020-11-06 13:47:35 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\ProductsController.php:33
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:277
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Query.php:177
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1679
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\ORM\Table.php:1261
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\src\Controller\ProductsController.php:33
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakeTest\fit2104-cakephp\webroot\index.php:40
+
+Request URL: /
+
+
